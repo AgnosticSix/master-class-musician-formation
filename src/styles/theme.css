@@ -2,6 +2,21 @@
 
 :root {
   --font-size: 16px;
+
+  /* ── Brand Colors ─────────────────────────────── */
+  --brand-dark: #060b0d;
+  --brand-dark-alt: #081012;
+  --brand-surface: #0a1114;
+  --brand-gold: #D4AF37;
+  --brand-gold-dark: #B8962E;
+  --brand-gold-light: #E5C158;
+
+  /* ── Brand Fonts ──────────────────────────────── */
+  --font-family-sans: 'Montserrat', sans-serif;
+  --font-family-display: 'Anton', sans-serif;
+  --font-family-script: 'Great Vibes', cursive;
+
+  /* ── Base Tokens ──────────────────────────────── */
   --background: #ffffff;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
@@ -79,6 +94,19 @@
 }
 
 @theme inline {
+  /* ── Brand Tokens ─────────────────────────────── */
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-dark-alt: var(--brand-dark-alt);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-dark: var(--brand-gold-dark);
+  --color-brand-gold-light: var(--brand-gold-light);
+
+  --font-sans: var(--font-family-sans);
+  --font-display: var(--font-family-display);
+  --font-script: var(--font-family-script);
+
+  /* ── Base Tokens ──────────────────────────────── */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
