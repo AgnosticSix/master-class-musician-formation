@@ -11,15 +11,15 @@ export const EVENT_DATA = {
     'DIRIGIDO A INTEGRANTES DE MINISTERIO DE MÚSICA Y A QUIENES DESEAN FORMAR UNO',
   description:
     'Únete a nosotros en una experiencia inmersiva diseñada para elevar tu ministerio musical. Durante esta master class profundizaremos en temas fundamentales como la técnica vocal, la dirección de alabanza, el ensamble musical y la espiritualidad del músico católico. Nuestro objetivo es equiparte no solo con herramientas técnicas, sino también con el fundamento espiritual necesario para guiar a la asamblea hacia un encuentro genuino.',
-  date: '[Día] de [Mes] de 2026',
-  location: 'Sede Principal, Ciudad',
-  instructorName: 'Nombre del Instructor',
+  date: '17 de Octubre de 2026',
+  location: 'Nicolas San Juan 616, Col. del Valle Centro, CDMX',
+  instructorName: 'Mtro. Ruben Isidro Martínez',
+  instructorTitle: 'Músico, Compositor, Arreglista y Director de Alabanza',
   instructorBio:
-    'Músico católico con más de 15 años de experiencia en la dirección de ministerios de alabanza y adoración. Ha participado en numerosos congresos y talleres internacionales, especializándose en la formación integral de coros parroquiales y bandas católicas. Su pasión es ayudar a otros a descubrir su llamado a través de la música.',
-  instructorPhoto:
-    'https://images.unsplash.com/photo-1708717652033-43f326f4cf84?q=80&w=400',
-  schedule: '00:00 AM a 00:00 PM',
-  email: 'contacto@masterclass.com',
+    'Con más de 47 años de trayectoria en la música católica, es Licenciado en Educación Musical por la Universidad de Guanajuato y fundador de la Escuela Superior de Música "Nueva Alianza". Durante 23 años dirigió el Congreso Nacional de Alabanza y ha participado como director musical en eventos emblemáticos de la Renovación Carismática en México y Texas. Actualmente sirve en el equipo de Evangelización y Ministerio de Música en Good Shepherd Catholic Church, Brownsville, TX.',
+  instructorPhoto: '/images/instructor.webp',
+  schedule: '09:00 AM a 05:00 PM',
+  email: 'mcm.arquidiocesano.valledemexico@gmail.com',
   year: 2026,
   motto: 'ALABAMOS • SERVIMOS • UNIDOS EN SU AMOR',
 } as const;
