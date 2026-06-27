@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail } from "lucide-react";
+import { Instagram, Facebook, Mail, Phone } from "lucide-react";
 import { CrossIcon } from "../components/icons/CrossIcon";
 import { TikTokIcon } from "../components/icons/TikTokIcon";
 import { EVENT_DATA } from "@/constants/event-data";
@@ -38,11 +38,17 @@ export function Footer() {
           })}
         </div>
 
-        {/* Contact Link */}
-        <a href={`mailto:${EVENT_DATA.email}`} className="flex items-center gap-2 text-gray-500 hover:text-brand-gold font-sans text-xs transition-colors">
-          <Mail size={14} />
-          <span>{EVENT_DATA.email}</span>
-        </a>
+        {/* Contact Links */}
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+          <a href={`mailto:${EVENT_DATA.email}`} className="flex items-center gap-2 text-gray-500 hover:text-brand-gold font-sans text-xs transition-colors">
+            <Mail size={14} />
+            <span>{EVENT_DATA.email}</span>
+          </a>
+          <a href={`tel:${EVENT_DATA.phone}`} className="flex items-center gap-2 text-gray-500 hover:text-brand-gold font-sans text-xs transition-colors">
+            <Phone size={14} />
+            <span>{EVENT_DATA.phone}</span>
+          </a>
+        </div>
 
         <div className="mt-12 text-gray-700 font-sans text-[10px]">
           &copy; {EVENT_DATA.year} Master Class Formación para Músicos. Todos los derechos reservados.
