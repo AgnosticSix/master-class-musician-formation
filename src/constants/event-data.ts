@@ -17,7 +17,7 @@ export const EVENT_DATA = {
   instructorTitle: 'Músico, Compositor, Arreglista y Director de Alabanza',
   instructorBio:
     'Con más de 47 años de trayectoria en la música católica, es Licenciado en Educación Musical por la Universidad de Guanajuato y fundador de la Escuela Superior de Música "Nueva Alianza". Durante 23 años dirigió el Congreso Nacional de Alabanza y ha participado como director musical en eventos emblemáticos de la Renovación Carismática en México y Texas. Actualmente sirve en el equipo de Evangelización y Ministerio de Música en Good Shepherd Catholic Church, Brownsville, TX.',
-  instructorPhoto: '/images/instructor.webp',
+  instructorPhoto: '/images/instructor.heic',
   schedule: '09:00 AM a 05:00 PM',
   email: 'mcm.arquidiocesano.valledemexico@gmail.com',
   year: 2026,
