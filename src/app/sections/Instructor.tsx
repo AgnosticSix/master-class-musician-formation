@@ -16,6 +16,7 @@ export function Instructor() {
               src={EVENT_DATA.instructorPhoto}
               alt={EVENT_DATA.instructorName}
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
 

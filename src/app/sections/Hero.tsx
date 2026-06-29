@@ -83,10 +83,10 @@ export function Hero() {
         <div className="mt-8 pb-8">
           <button 
             onClick={scrollToDetails}
-            className="text-white/50 hover:text-brand-gold transition-colors animate-bounce cursor-pointer flex flex-col items-center gap-2"
+            className="text-gray-300 hover:text-brand-gold transition-colors animate-bounce cursor-pointer flex flex-col items-center gap-2"
             aria-label="Scroll to details"
           >
-            <span className="font-sans text-xs tracking-widest uppercase opacity-70">Descubre Más</span>
+            <span className="font-sans text-xs tracking-widest uppercase opacity-90">Descubre Más</span>
             <ChevronDown size={24} strokeWidth={1.5} />
           </button>
         </div>

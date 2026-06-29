@@ -14,6 +14,7 @@ export function Header() {
             src="/images/MasterClass.png"
             alt="Master Class Logo"
             className="h-16 w-auto object-contain drop-shadow-md"
+            loading="eager"
           />
           <span className="font-sans font-bold tracking-widest text-white text-sm">Master Class<span className="text-brand-gold"> 2026</span></span>
         </div>
