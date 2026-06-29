@@ -20,6 +20,7 @@ export const EVENT_DATA = {
   instructorPhoto: '/images/instructor.jpg',
   schedule: '09:00 AM a 05:00 PM',
   email: 'mcm.arquidiocesano.valledemexico@gmail.com',
+  phone: '5569607645',
   year: 2026,
   motto: 'ALABAMOS • SERVIMOS • UNIDOS EN SU AMOR',
 } as const;

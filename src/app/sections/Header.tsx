@@ -25,6 +25,7 @@ export function Header() {
               {link.label}
             </a>
           ))}
+          {/* TODO: Agregar cuando se tenga definido el metodo de inscripción */}
           {/* <a href={NAV_CTA.href} className="text-brand-gold border border-brand-gold px-4 py-2 rounded-full hover:bg-brand-gold hover:text-brand-dark transition-all">
             {NAV_CTA.label}
           </a> */}
