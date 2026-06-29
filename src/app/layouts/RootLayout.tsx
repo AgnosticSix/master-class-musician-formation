@@ -20,7 +20,7 @@ export function RootLayout() {
         <DetailsGrid />
         <MoreInfo />
         <Instructor />
-        <RegistrationForm />
+        {/* <RegistrationForm /> */}
       </main>
       <Footer />
       <Outlet />
