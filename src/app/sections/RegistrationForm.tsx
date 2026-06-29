@@ -14,39 +14,49 @@ export function RegistrationForm() {
 
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="space-y-2">
-              <label className="block text-brand-gold font-sans text-xs font-bold tracking-wider">NOMBRE COMPLETO</label>
+              <label htmlFor="nombreCompleto" className="block text-brand-gold font-sans text-xs font-bold tracking-wider">NOMBRE COMPLETO</label>
               <input 
+                id="nombreCompleto"
                 type="text" 
                 placeholder="Ej. Juan Pérez"
-                className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-600"
+                required
+                aria-required="true"
+                className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-400"
               />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="block text-brand-gold font-sans text-xs font-bold tracking-wider">CORREO ELECTRÓNICO</label>
+                <label htmlFor="correoElectronico" className="block text-brand-gold font-sans text-xs font-bold tracking-wider">CORREO ELECTRÓNICO</label>
                 <input 
+                  id="correoElectronico"
                   type="email" 
                   placeholder="ejemplo@correo.com"
-                  className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-600"
+                  required
+                  aria-required="true"
+                  className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-400"
                 />
               </div>
               <div className="space-y-2">
-                <label className="block text-brand-gold font-sans text-xs font-bold tracking-wider">TELÉFONO</label>
+                <label htmlFor="telefono" className="block text-brand-gold font-sans text-xs font-bold tracking-wider">TELÉFONO</label>
                 <input 
+                  id="telefono"
                   type="tel" 
                   placeholder="+00 000 000 0000"
-                  className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-600"
+                  required
+                  aria-required="true"
+                  className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-400"
                 />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="block text-brand-gold font-sans text-xs font-bold tracking-wider">MINISTERIO O PARROQUIA (OPCIONAL)</label>
+              <label htmlFor="ministerio" className="block text-brand-gold font-sans text-xs font-bold tracking-wider">MINISTERIO O PARROQUIA (OPCIONAL)</label>
               <input 
+                id="ministerio"
                 type="text" 
                 placeholder="Nombre de tu coro o parroquia"
-                className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-600"
+                className="w-full bg-brand-dark border border-gray-800 rounded-lg px-4 py-3 text-white font-sans focus:outline-none focus:border-brand-gold transition-colors placeholder:text-gray-400"
               />
             </div>
 
